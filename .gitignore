@@ -27,3 +27,8 @@ Thumbs.db
 
 # Data files (optional - remove if you want to track them)
 *.csv
+
+# Large models and datasets
+*.pkl
+*.zip
+anaconda_projects/
