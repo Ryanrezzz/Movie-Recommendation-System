@@ -119,7 +119,7 @@ def recommend_anime(anime_name, anime, similarity):
 
         index = anime[anime['Name'] == anime_name].index[0]
         distances = similarity[index]
-        anime_list = sorted(list(enumerate(distances)), reverse=True, key=lambda x: x[1])[1:6]
+        anime_list = sorted(list(enumerate(distances)), reverse=True, key=lambda x: x[1])[5:10]
 
         recommended_anime = []
         recommended_images = []
