@@ -35,7 +35,7 @@ def load_book_data():
 def load_anime_data():
     try:
         anime = pickle.load(open('anime.pkl', 'rb'))
-        similarity = pickle.load(open('anime_similarity.pkl', 'rb'))
+        similarity = pickle.load(open('compressed_anime.pkl', 'rb'))
         return anime, similarity
     except Exception as e:
         st.error(f"Error loading anime data: {e}")
