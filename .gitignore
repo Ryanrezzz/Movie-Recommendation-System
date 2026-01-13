@@ -29,6 +29,5 @@ Thumbs.db
 *.csv
 
 # Large models and datasets
-*.pkl
 *.zip
 anaconda_projects/
